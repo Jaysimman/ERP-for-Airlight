@@ -1,27 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Enquiry Form</title>
-  <link rel="stylesheet" href="/airlighterp/css/style.css">
-</head>
-<body>
-    <div id="branding" class="site-branding branding table-cell-mid">
-		<div id="site-logo" class="site-logo-image">
-		  <div id="site-logo-image"><h1 id="site-title" class="site-title" itemprop="headline">
-      <img width="230" height="90" src="https://airlight.in/wp-content/uploads/2017/09/Airlight-thinking-ahead-logo-1111111.png" class="custom-logo" alt="Airlight" decoding="async"></div></h1></div>		</div>
-	</div>
-  <div class="container">
+<div class="container">
     <h1>Enquiry Form</h1>
     <form action="submit.php" method="post">
       <h3>Customer Details</h3>
+      <div class="form-group">
+        <label for="code">Offer Date:</label>
+        <input type="date" id="date" name="date" required>
+      </div>
+      <div class="form-group">
+        <label for="name">Offer Number:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
       <div class="form-group">
         <label for="code">Enquiry Date:</label>
         <input type="date" id="date" name="date" required>
       </div>
       <div class="form-group">
         <label for="name">Enquiry Number:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="code">Customer Enquiry Date:</label>
+        <input type="date" id="date" name="date" required>
+      </div>
+      <div class="form-group">
+        <label for="name">Customer Enquiry Number:</label>
         <input type="text" id="name" name="name" required>
       </div>
       <div class="form-group">
@@ -42,10 +44,10 @@
         </select>
       </div>
       <div class="form-group">
-        <label for="name">Source of Enquiry</label>
+        <label for="name">Offer value</label>
         <input type="text" id="name" name="name" required>
       </div>
-      <h3>Enquiry Received By</h3>
+      <h3>Enquiry Received and Prepared by:</h3>
       <div class="form-group">
         <label for="code">Employee Code</label>
         <input type="text" id>
@@ -55,7 +57,11 @@
         <input type="text" id="name" name="name" required>
       </div>
       <div class="form-group">
-        <label for="name">Enquiry Passed for offer</label>
+        <label for="code">Offer Expiry Date:</label>
+        <input type="date" id="date" name="date" required>
+      </div>
+      <div class="form-group">
+        <label for="name">Order followed by</label>
         <input type="text" id="name" name="name" required>
       </div>
       <div class="form-group">
@@ -74,5 +80,3 @@
       <button type="submit">Submit</button>
     </form>
   </div>
-</body>
-</html>
