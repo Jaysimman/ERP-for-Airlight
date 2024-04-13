@@ -3,20 +3,20 @@
     <form action="submit.php" method="post">
       <h3>Material Intent Form</h3>
       <div class="form-group">
-        <label for="code">Date:</label>
+        <label for="date">Date:</label>
         <input type="date" id="date" name="date" required>
       </div>
       <div class="form-group">
-        <label for="name">Product Intent Number:</label>
-        <input type="text" id="name" name="name" required>
+        <label for="pro_int_num">Product Intent Number:</label>
+        <input type="text" id="pro_int_num" name="pro_int_num" required>
       </div>
       <div class="form-group">
-        <label for="name">Item Code</label>
+        <label for="item_code">Item Code</label>
         <input type="text" id="name" name="name">
       </div>
       <div class="form-group">
-        <label for="name">Item Description</label>
-        <input type="text" id="name" name="name" required>
+        <label for="itm_desc">Item Description</label>
+        <input type="text" id="itm_desc" name="itm_desc" required>
       </div>
       <div class="form-group">
         <label for="name">Item Quantity</label>
@@ -50,7 +50,7 @@
       </div> -->
       <div class="form-group">
         <label for="name">Product Plan and Schedule:</label>
-        <input type="text" id="name" name="name" required>
+        <input type="text" id="pps" name="name" required>
       </div>
       <div class="form-group">
         <label for="message">Remarks:</label>

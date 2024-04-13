@@ -3,36 +3,36 @@
     <form action="submit.php" method="post">
       <h3>Customer Details</h3>
       <div class="form-group">
-        <label for="code">Date:</label>
+        <label for="date">Date:</label>
         <input type="date" id="date" name="date" required>
       </div>
       <div class="form-group">
-        <label for="name">QCN Number:</label>
-        <input type="text" id="name" name="name" required>
+        <label for="qcn-num">QCN Number:</label>
+        <input type="text" id="qcn-num" name="qcn-num" required>
       </div>
       <div class="form-group">
-        <label for="name">Item Code</label>
+        <label for="itm-code">Item Code</label>
         <input type="text" id="name" name="name">
       </div>
       <div class="form-group">
-        <label for="name">Item Description</label>
+        <label for="itm-desc">Item Description</label>
         <input type="text" id="name" name="name" required>
       </div>
       <div class="form-group">
-        <label for="name">Received Quantity</label>
-        <input type="text" id="name" name="name" required>
+        <label for="rcd-quan">Received Quantity</label>
+        <input type="text-quan" id="rcd-quan" name="rcd-quan" required>
       </div>
       <div class="form-group">
-        <label for="code">Accepted Quantity</label>
-        <input type="text" id>
+        <label for="apt-quan">Accepted Quantity</label>
+        <input type="text" id="apt-quan" name="apt-quan" required>
       </div>
       <div class="form-group">
-        <label for="name">Rejected Quantity</label>
-        <input type="text" id="name" name="name" required>
+        <label for="rjt-quan">Rejected Quantity</label>
+        <input type="text" id="rjt-quan" name="rjt-quan" required>
       </div>
       <div class="form-group">
-        <label for="name">Reason for Rejection</label>
-        <input type="text" id="name" name="name" required>
+        <label for="rcn-rej">Reason for Rejection</label>
+        <input type="text" id="rcn-rej" name="rcn-rej" required>
       </div>
       <!-- <div class="form-group">
         <label for="email">Email</label>
