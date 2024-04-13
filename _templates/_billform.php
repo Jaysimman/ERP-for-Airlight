@@ -1,6 +1,6 @@
 <div class="container">
     <h1>Bill Form</h1>
-    <form action="submitBillForm.php" method="post">
+    <form action="/submitform/submitBillForm.php" method="post">
       <h3>Billing Detail</h3>
       <div class="form-group">
         <label for="billDate">Bill Date:</label>
