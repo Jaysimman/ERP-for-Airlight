@@ -1,5 +1,5 @@
 <main class="form-signin w-100 m-auto">
-    <form action="/airlighterp/enquiry.php" method="post">
+    <form action="enquiry.php" method="post">
         <img class="mb-4" src="https://airlight.in/wp-content/uploads/2017/09/Airlight-thinking-ahead-logo-1111111.png" alt="" width="72" height="57">
         <h1 class="h3 mb-3 fw-normal">Please Login</h1>
         <div class="form-floating">

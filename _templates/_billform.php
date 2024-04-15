@@ -1,6 +1,6 @@
 <div class="container">
     <h1>Bill Form</h1>
-    <form action="/libs/load.php" method="post">
+    <form action="test.ph" method="post">
       <h3>Billing Detail</h3>
       <div class="form-group">
         <label for="billDate">Bill Date:</label>
