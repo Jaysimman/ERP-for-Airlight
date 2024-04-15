@@ -1,7 +1,8 @@
 <div class="container">
     <h1>Bill Form</h1>
-    <form action="test.ph" method="post">
-      <h3>Billing Detail</h3>
+    <hr>
+    <form action="submitBillForm.php" method="post">
+      <h3><u>Billing Detail</u></h3>
       <div class="form-group">
         <label for="billDate">Bill Date:</label>
         <input type="date" id="billDate" name="billDate" required>
@@ -28,7 +29,7 @@
       </div>
       <div class="form-group">
         <label for="custCode">Customer code</label>
-        <input type="text" id="custcode" name="custCode" required>
+        <input type="text" id="custCode" name="custCode" >
       </div>
       <div class="form-group">
         <label for="custName">Customer name</label>
@@ -36,11 +37,10 @@
       </div>
       <div class="form-group">
         <label for="typeOfReq">Type of Requirements</label>
-        <!-- <input type="text" id="name" name="name" required> -->
-        <select name="sel" id="sel">
-          <option value="newInstal">New Installation</option>
-          <option value="Service">Service Needs</option>
-          <option value="updation">Setup Updation</option>
+        <select name="typeOfReq" id="typeOfReq">
+          <option value="New Installation">New Installation</option>
+          <option value="Service Needs">Service Needs</option>
+          <option value="Setup Update">Setup Update</option>
         </select>
       </div>
       <div class="form-group">
@@ -59,19 +59,19 @@
         <label for="mtrlDsptchDetails">Material Dispatch Details:</label>
         <input type="text" id="mtrlDsptchDetails" name="mtrlDsptchDetails" required>
       </div>
-      <h3>Material Packed By</h3>
+      <h3><u>Material Packed By</u></h3>
       <div class="form-group">
         <label for="packEmpCode">Employee code</label>
-        <input type="date" id="packEmpCode" name="packEmpCode" required>
+        <input type="text" id="packEmpCode" name="packEmpCode" required>
       </div>
       <div class="form-group">
         <label for="pckEmpName">Employee Name</label>
         <input type="text" id="pckEmpName" name="pckEmpName" required>
       </div>
-      <h3>Payment followed By</h3>
+      <h3><u>Payment followed By</u></h3>
       <div class="form-group">
         <label for="payEmpCode">Empcode code</label>
-        <input type="date" id="payEmpCode" name="payEmpCode" required>
+        <input type="text" id="payEmpCode" name="payEmpCode" required>
       </div>
       <div class="form-group">
         <label for="payEmpName">Employee Name</label>

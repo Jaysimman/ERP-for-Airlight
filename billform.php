@@ -1,5 +1,5 @@
-<?
-include 'libs/load.php'
+<?php
+include "libs/load.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -10,7 +10,7 @@ include 'libs/load.php'
   <link rel="stylesheet" href="/airlighterp/css/style.css">
 </head>
 <body>
-<?load_template('_logo')?>
-<?load_template('_billform')?>
+<?php load_template('_logo')?>
+<?php load_template('_billform')?>
 </body>
 </html>

@@ -1,2 +1,2 @@
 <?
-include 'libs/load.php';
+include 'libs/config.php';
